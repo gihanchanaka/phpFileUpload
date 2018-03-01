@@ -1,0 +1,85 @@
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+.computation {
+    margin-top: 25px;
+    width: 50%;
+}
+
+.computation input{
+    height: 80px;  
+    width: inherit;
+    padding: 5px;
+}
+
+#btnCompute {
+    background: #F4CB07;
+    color: white;
+    margin-top: 10px;
+    padding: 7px;
+    width: 180px;
+    height: 30px;
+    line-height: 25px;
+    border-radius: 50px;
+    border: 1px solid #F4CB07;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#btnCompute:hover {
+    cursor: pointer;
+    background: #F19B0A;
+    transition: 0.8s ease;
+}
+
+.variable-list ul{    
+    list-style: none;
+}
+
+.variable-list ul li{
+   
+}
+.variable-list ul li .field-group {
+    border-style: none;
+}
+
+.variable-list ul li .field-group input{
+    padding: 5px;
+}
+
+.variable-list ul li .field-group .input-fields{
+    background: red;
+    color: #505050;
+    margin: 5px;
+    padding: 8px;
+    width: 250px;    
+    border:1px solid 747474;
+}
+
+.variable-list .input-fields:focus {
+    outline: none !important;
+    border:2px solid #04C8E1;  
+}
+
+#btnAppendList {
+    background: red;
+    color: #0698E3;
+    padding: 7px;
+    width: 180px;
+    line-height: 25px;
+    border-radius: 50px;
+    border: 1px solid #0698E3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#btnAppendList:hover {
+    cursor: pointer;
+    background: #0698E3;
+    color: white;    
+    transition: 0.8s ease;
+}
